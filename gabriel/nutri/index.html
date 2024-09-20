@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pessoal</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">IMC</a></li>
+                <li><a href="#">Agendamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div><img src="./banner1.jpg" alt="Banner 1"></div>
+                <div><img src="./banner2.jpg" alt="Banner 2"></div>
+                <div><img src="./banner3.jpg" alt="Banner 3"></div>
+                <div><img src="https://sfnutricao.com.br/wp-content/uploads/2018/09/SF-nutricao-consultoria-nutricional-banner-004-1920-960px.jpg" alt="Banner 4"></div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
